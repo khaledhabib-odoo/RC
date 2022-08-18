@@ -1,0 +1,49 @@
+<odoo>
+    <data>
+        <record id="palette_tracking_tree_view" model="ir.ui.view">
+            <field name="name">palette.tracking.view.tree</field>
+            <field name="model">palette.tracking</field>
+            <field name="arch" type="xml">
+                <tree string="Palette Tracking">
+                    <field name="picking_id"/>
+                    <field name="picking_partner_id"/>
+                    <field name="picking_date_done"/>
+                    <field name="palette_count_plus"/>
+                    <field name="palette_count_minus"/>
+                    <field name="balance"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="palette_tracking_form_view" model="ir.ui.view">
+            <field name="name">palette.tracking.form.view</field>
+            <field name="model">palette.tracking</field>
+            <field name="arch" type="xml">
+                <form string="Palette Tracking">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="partner_id" invisible="1"/>
+                                <field name="picking_id" required="1"/>
+                                <field name="picking_partner_id"/>
+                                <field name="picking_date_done"/>
+                            </group>
+                            <group>
+                                <field name="palette_count_plus"/>
+                                <field name="palette_count_minus"/>
+                                <field name="balance"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    <!--Actions-->
+        <record id="palette_tracking_action" model="ir.actions.act_window">
+            <field name="name">Palette Tracking</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">palette.tracking</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>

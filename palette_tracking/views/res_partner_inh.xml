@@ -1,0 +1,19 @@
+<odoo>
+    <data>
+        <!-- Inherit Form View to Modify it -->
+        <record id="add_palette_tracking_smart_btn" model="ir.ui.view">
+            <field name="name">add.palette.tracking.smart.btn</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <div name="button_box" position="inside">
+                    <field name="company_type" invisible="1"/>
+                    <button class="oe_stat_button" type="object" name="show_palette_tracking" icon="fa-tasks"
+                    attrs="{'invisible': [('company_type', '!=', 'company')]}">
+                        <field string="Pale Track Count" name="palette_tracking_count" widget="statinfo"/>
+                    </button>
+                </div>
+            </field>
+        </record>
+    </data>
+</odoo>

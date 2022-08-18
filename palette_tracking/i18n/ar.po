@@ -1,0 +1,125 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* palette_tracking
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-18 20:15+0000\n"
+"PO-Revision-Date: 2022-08-18 22:25+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: ar\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: palette_tracking
+#: model:ir.model.fields,field_description:palette_tracking.field_palette_tracking__balance
+msgid "Balance"
+msgstr "التوازن"
+
+#. module: palette_tracking
+#: model:ir.model,name:palette_tracking.model_res_partner
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: palette_tracking
+#: model:ir.model.fields,field_description:palette_tracking.field_palette_tracking__palette_count_minus
+msgid "Count Palette Minus"
+msgstr "عدد الالواح السالبة"
+
+#. module: palette_tracking
+#: model:ir.model.fields,field_description:palette_tracking.field_palette_tracking__palette_count_plus
+msgid "Count Palette Plus"
+msgstr "عدد الالواح الموجبة"
+
+#. module: palette_tracking
+#: model:ir.model.fields,field_description:palette_tracking.field_palette_tracking__create_uid
+msgid "Created by"
+msgstr "انشئ بواسطة"
+
+#. module: palette_tracking
+#: model:ir.model.fields,field_description:palette_tracking.field_palette_tracking__create_date
+msgid "Created on"
+msgstr "انشي في"
+
+#. module: palette_tracking
+#: model:ir.model.fields,help:palette_tracking.field_palette_tracking__picking_date_done
+msgid "Date at which the transfer has been processed or cancelled."
+msgstr "تاريخ تاكيد خروج الشحنة او الغاءها"
+
+#. module: palette_tracking
+#: model:ir.model.fields,field_description:palette_tracking.field_palette_tracking__display_name
+#: model:ir.model.fields,field_description:palette_tracking.field_res_partner__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: palette_tracking
+#: model:ir.model.fields,field_description:palette_tracking.field_palette_tracking__id
+#: model:ir.model.fields,field_description:palette_tracking.field_res_partner__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: palette_tracking
+#: model:ir.model.fields,field_description:palette_tracking.field_palette_tracking____last_update
+#: model:ir.model.fields,field_description:palette_tracking.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: palette_tracking
+#: model:ir.model.fields,field_description:palette_tracking.field_palette_tracking__write_uid
+msgid "Last Updated by"
+msgstr "اخر تعديل بواسطة"
+
+#. module: palette_tracking
+#: model:ir.model.fields,field_description:palette_tracking.field_palette_tracking__write_date
+msgid "Last Updated on"
+msgstr "اخر تعديل في"
+
+#. module: palette_tracking
+#: model:ir.model.fields,field_description:palette_tracking.field_palette_tracking__license_plate
+msgid "License Plate"
+msgstr "رخصة اللوحة"
+
+#. module: palette_tracking
+#: model_terms:ir.ui.view,arch_db:palette_tracking.add_palette_tracking_smart_btn
+msgid "Pale Track Count"
+msgstr "عدد الالواح المتتبعة"
+
+#. module: palette_tracking
+#: model:ir.actions.act_window,name:palette_tracking.palette_tracking_action
+#: model:ir.model,name:palette_tracking.model_palette_tracking
+#: model_terms:ir.ui.view,arch_db:palette_tracking.palette_tracking_form_view
+#: model_terms:ir.ui.view,arch_db:palette_tracking.palette_tracking_tree_view
+msgid "Palette Tracking"
+msgstr "الالواح المتتبعة"
+
+#. module: palette_tracking
+#: model:ir.model.fields,field_description:palette_tracking.field_res_partner__palette_tracking_count
+#: model:ir.model.fields,field_description:palette_tracking.field_res_users__palette_tracking_count
+msgid "Palette Tracking Count"
+msgstr "عدد الالواح المتتبعة"
+
+#. module: palette_tracking
+#: model:ir.model.fields,field_description:palette_tracking.field_palette_tracking__partner_id
+msgid "Partner"
+msgstr "جهة الاتصال"
+
+#. module: palette_tracking
+#: model:ir.model.fields,field_description:palette_tracking.field_palette_tracking__picking_id
+msgid "Picking"
+msgstr "الشحنة"
+
+#. module: palette_tracking
+#: model:ir.model.fields,field_description:palette_tracking.field_palette_tracking__picking_date_done
+msgid "Picking Date Done"
+msgstr "تاريخ تاكيد الشحنة"
+
+#. module: palette_tracking
+#: model:ir.model.fields,field_description:palette_tracking.field_palette_tracking__picking_partner_id
+msgid "Picking Partner"
+msgstr "جهة الاتصال الخاصة بالشحنة"
