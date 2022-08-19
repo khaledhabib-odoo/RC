@@ -1,0 +1,31 @@
+<odoo>
+    <data>
+        <record id="res_config_settings_view_smarty_streets" model="ir.ui.view">
+            <field name="name">res.config.settings.view.smarty.streets</field>
+            <field name="model">res.config.settings</field>
+            <field name="inherit_id" ref="website.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@id='seo_settings']" position="after">
+                    <h2>Smartystreet configuration</h2>
+                    <div class="row mt16 o_settings_container" id="smarty_street_configuration">
+                        <div class="col-xs-12 col-md-6 o_setting_box" id="smart-street">
+                            <div class="o_setting_right_pane">
+                                <div class="text-muted">
+                                    Settings For smartystreet integration
+                                </div>
+                                <label string="Auth-ID" for="smarty_auth_id"/>
+                                <div class="mt16">
+                                    <field name="smarty_auth_id"/>
+                                </div>
+                                <label string="Auth-Token" for="smarty_auth_token"/>
+                                <div class="mt16">
+                                    <field name="smarty_auth_token"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
