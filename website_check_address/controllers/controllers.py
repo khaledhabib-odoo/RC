@@ -4,6 +4,7 @@ from odoo.http import request
 from werkzeug.exceptions import Forbidden, NotFound
 from odoo.addons.website_sale.controllers.main import WebsiteSale
 import requests
+from odoo import _
 
 
 class WebsiteSaleAddress(WebsiteSale):
@@ -67,7 +68,7 @@ class WebsiteSaleAddress(WebsiteSale):
             #######################
             check_addrs = self.check_partner_address(kw)
             if check_addrs != 200:
-                errors['error_message'] = ['your address is wrong plz Enter another valid address']
+                errors['error_message'] = [_('your address is wrong plz Enter another valid address')]
                 # print("Errors =", errors)
             #######################
             if errors:
